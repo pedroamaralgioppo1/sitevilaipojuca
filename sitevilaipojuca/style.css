@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e55;
+}
+
+#menu p{
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Cinzel', serif;    
+    margin: 15px 20px 0px 20px;
+    
+}
+
+
+
+#menu{
+    position: fixed;
+    background-color: #000;
+    color: #FFFFFF;
+    width: 100%;
+    z-index: 1;
+    vertical-align:middle ;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: #26CAE0;
+}
+
+#conta{
+    background-color: #212E40;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+#menu #logo{
+    float: right;
+    margin: 0 30px 0 0;
+}
+
+#vila{
+    color: #26CAE0;
+    font-family: 'Comforter', cursive;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#ipojuca{
+
+    font-family: 'Zen Loop', cursive;
+}
+
+#telainc {
+
+
+
+    height: 100vh;
+
+    display: flex;
+
+
+    color: #eee;
+
+    background:url('https://www.webquarto.com.br/uploads/district/45899/district_image_0.jpg') no-repeat center/cover;
+    
+    
+    
+    background-color: rgba(0,0,0,0.6);
+
+    background-blend-mode: color;
+    
+
+}
+
+
+
+
+
+#telainc-container h2 {
+    display: inline-block;
+    top: 50%;
+    margin: 0;
+    left: 10%;
+    font-family: 'Zen Loop', cursive;
+    font-size: 50px;
+    color: #000;
+    position: relative;
+    
+
+
+
+}
+
+
+#container2 h1{
+    margin: 0;
+
+    position: relative;
+    font-family: 'Zen Loop', cursive;
+    font-size:50vh;
+    top: 23%;
+
+    left: 47%;
+    
+
+
+    
+}
+
+#triangulo{  
+       
+
+    margin-top:0;    
+    border-top: 290px solid transparent;
+    border-bottom: 300px solid transparent;
+    border-left: 500px solid rgba(217,217,217,0.45);
+}
+
+#imagens img{
+    width: 30vh;
+    height: 30vh;
+    margin: 2vh;
+}
+
+
+
+#content2 {
+    text-align: center;
+}
+
+#content2 h1{
+    color: #FFFFFF;
+    font-size: 2.5rem;
+}
+
+.container3{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    align-items: CENTER;
+    justify-content: center;
+}
+
+.texto{
+    color: #FFFFFF;
+
+    font-family: 'Lustria', serif;    
+    width:40%;
+}
+.texto h2{
+    font-weight: lighter;
+    font-family: 'Ultra', serif;
+}
+
+.figura img{
+    margin: 30px 0 30px 0;
+    width: 400px ;
+    box-shadow: 30px 30px #212E40;
+}
+footer img{
+    display: inline-block;
+    width: 20px;
+}
+footer p{
+    font-size: 1rem;
+    display: inline-block;
+   
+}
+
+
+
+footer div{
+    width: 50%;
+}
+
+footer{
+    font-family: 'Lustria', serif;  
+    text-align: center;
+    margin-top: 7%;
+    color:#FFFFFF;
+    background-color: #212e40;
+    display: flex;
+}
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abra a sua Conta</title>
+    <link rel="stylesheet" href="entrar.css">
+</head>
+<body>
+<content>
+
+    <h1>Abra a sua conta!</h1>
+    <form action="#">
+        <table >
+            <tr>
+                <td><label for="nomeid">Nome</label></td>
+                <td colspan="3"><input type="text" name="nomeid" id="nomeid" placeholder="Ex:João Henrique"></td>
+    
+            </tr>
+            <tr>
+                <td><label for="emailid">Email</label></td>
+                <td colspan="3"><input type="email" name="emailid" id="emailid" placeholder="Ex: joão@gmail.com"></td>
+    
+            </tr>
+            
+    
+            <tr>
+                <td ><label for="ruaid">Rua</label></td>
+                <td><input type="text" name="ruaid" id="ruaid" placeholder="Ex: Rua dos Anjos"></td>
+                <td> <label for="senha">Senha</label></td>
+                <td>  <input type="password" name="senha" id="senha" placeholder="Cria uma senha"></td>
+    
+            </tr>
+            <tr>
+                <td ><label for="cepid">CEP</label></td>
+                <td> <input type="text" name="cepid" id="cepid" placeholder="Ex: 0500 05123"></td>
+                <td> <label for="conf">Confirme a senha</label></td>
+                <td>  <input type="password" name="conf" id="conf" placeholder="Confirme a senha"></td>
+             
+    
+    
+            </tr>
+            <tr id="tr1">
+                <td ><label for="telid">Telefone</label></td>
+                <td> <input type="tel" name="telid" id="telid" placeholder="+55 11 9232-2323"></td>
+                <td> <p>Sexo</p></td>
+                <td id="td1"> <label for="mid">M</label>
+                    <input type="radio" name="mid"  id="cid" value="m">
+                    <label for="fid">F</label>
+                    <input type="radio" name="mid"  id="fid" value="f">
+                </td>
+    
+            </tr>
+            <tr>
+                <td ><label for="nacid">Data de Nasc.</label></td>
+                <td><input type="date" name="nacid" id="nacid"></td>
+                <td> <label for="estado">Est.civil</label></td>
+                <td> <select name="estado" id="estid">
+                    <option value="n" selected>Solteiro</option>
+                    <option value="p">Casado</option>
+                    <option value="s">Namorando</option>
+                </select></td>
+    
+    
+    
+            </tr>
+            <tr><td><input id="botao" type="submit" value="Cadastrar"></td></tr>
+
+        </table>
+
+        
+        
+    </form>
+    <a href="index.html">
+        <div>
+            <h2>Voltar para a página inicial</h2>
+        </div>
+    </a>
+</content>
+    
+    
+    
+    
+
+
+    
+</body>
+</html>

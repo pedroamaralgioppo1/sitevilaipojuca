@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E0E2EE;
+    
+}
+
+#menu p{
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Cinzel', serif;    
+    margin: 15px 20px 0px 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+a:hover{
+    color: #26CAE0;
+}
+
+#conta{
+    background-color: #212E40;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+#menu{
+    position: fixed;
+    background-color: #000;
+    color: #FFFFFF;
+    width: 100%;
+    z-index: 1;
+    vertical-align:middle ;
+}
+
+
+ #menu #logo{
+    float: right;
+    margin: 0 30px 0 0;
+}
+
+#vila{
+    color: #26CAE0;
+    font-family: 'Comforter', cursive;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#ipojuca{
+
+    font-family: 'Zen Loop', cursive;
+}
+
+#telainc {
+
+    z-index: -1;
+
+    height: 90vh;
+
+    display: flex;
+
+
+    color: #eee;
+
+    background:url('https://static.arboimoveis.com.br/fotos-bairros/vila_ipojuca1614637179652.png') no-repeat center/cover;
+    
+    
+    
+    background-color: rgba(0,0,0,0.2);
+
+    background-blend-mode: color;
+    
+
+}
+
+#telainc-container h2 {
+
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+    font-size: 50px;
+    color: #ffffff;
+
+    
+
+
+
+}
+
+#telainc-container {
+    margin: auto;
+
+    
+
+
+
+}
+
+content{
+    align-items: center;
+    text-align: center;
+
+
+}
+
+content p, content img, li{
+    font-family: 'Lustria', serif;
+    font-size: 1.5rem;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    
+    
+}
+
+#texto{
+    margin-top: 3%;
+}
+
+.lugares{
+    display: flex;
+    margin: 5% 3% 3% 20% ;
+  
+}
+
+.lugares img{
+    width: 40%;
+    margin: 0;
+    padding: 0 5% 0 5%;
+    
+}
+.lugares h2{
+   
+    margin-bottom: 5%;
+}
+ul{
+    
+    padding: 0;
+}
+li{
+    width: 300px;
+}
+
+
+h2{
+    font-family: 'Lustria', serif;
+    font-size: 2rem;
+}
+footer img{
+    display: inline-block;
+    width: 20px;
+}
+footer p{
+    font-size: 1rem;
+    display: inline-block;
+   
+}
+
+
+
+footer div{
+    width: 50%;
+}
+
+footer{
+    font-family: 'Lustria', serif;  
+    text-align: center;
+    margin-top: 7%;
+    color:#FFFFFF;
+    background-color: #212e40;
+    display: flex;
+}
+
+
+
+

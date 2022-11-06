@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+#menu p{
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Cinzel', serif;    
+    margin: 15px 20px 0px 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: #26CAE0;
+}
+
+#conta{
+    background-color: #212E40;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+#menu{
+    position: fixed;
+    background-color: #000;
+    color: #FFFFFF;
+    width: 100%;
+    z-index: 1;
+    vertical-align:middle ;
+}
+
+
+#menu #logo{
+    float: right;
+    margin: 0 30px 0 0;
+}
+
+#vila{
+    color: #26CAE0;
+    font-family: 'Comforter', cursive;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#ipojuca{
+
+    font-family: 'Zen Loop', cursive;
+}
+
+content h2{
+    margin-top:0 ;
+}
+
+content{
+    font-family: 'Lustria', serif;
+    font-size: 1.2rem;    
+    text-align: center;
+}
+
+#mapa{
+    display: flex;
+}
+
+#texto {
+    margin-left: auto;
+    width: 15%;
+    margin-top: 5%;
+    margin-right: 2%;
+
+}
+iframe{
+    margin-top: 5%;
+    margin-right: auto;
+}
+
+#texto h2, #texto2 h2{
+    font-family: 'Ultra', serif;
+}
+
+#texto p{
+    margin-bottom: 3%;
+}
+
+#box p{
+  
+    width: 97%;
+    padding: 2%
+    
+}
+
+#box{
+    width: 50%;
+    box-shadow: 30px 30px #bfbfbfbf;
+    margin: 3% auto 3% auto;
+    background-color: #424f7e;
+}
+
+#mapa2{
+    display: flex;
+}
+
+#texto2{
+    margin-right: auto;
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 0;
+
+}
+#mapa2 iframe{
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-left: auto;
+}
+
+h1{
+    margin-top: 4%;
+    margin-bottom: 0;
+    font-family: 'Ultra', serif;
+}
+
+#linha{
+    width: 70%;
+    height: 2.5px;
+    background-color: black;
+    margin-bottom: 100px;
+    margin: auto;
+}
+
+.icone{
+    display: inline-block;
+    width: 10%;
+    margin: 3% 10% 0 10%;
+ 
+    
+}
+.legenda{
+    display: inline-block;
+    width: 10%;
+    margin: 0 10% 0 10%;
+}
+
+#titulo{
+    margin-top: 5%;
+    margin-left: 23%;
+}
+
+.imagem{
+    width: 20%;
+    padding-right: 4%;
+}
+
+.coment{
+    display: flex;
+}
+
+.coment p{
+    padding: 10px;
+    width: 70%;
+    font-size: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+.coment h2{
+    font-size: 1rem;
+    margin-top: 2.5%;
+    margin-left: 7%;
+    margin-right: 1%;
+
+    
+}
+
+#comentarios{
+    margin-top: 5%;
+}
+
+.coment img{
+    border-radius: 100%;
+    width: 7%;
+    margin-right: 3%;
+
+}
+
+.coment2{
+    display: flex;
+}
+
+.coment2 img{
+    border-radius: 100%;
+    width: 7%;
+    height: 7%;
+    margin-top: 1%;
+    margin-right: 1%;
+
+}
+
+.coment2 p{
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-left: 7%;
+    margin-right: 3%;
+    width: 70%;
+}
+.coment2 h2{
+    font-size: 1rem;
+    margin-top: 3.5%;
+    
+}
+
+#diferencial{
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+footer img{
+    display: inline-block;
+    width: 20px;
+}
+footer p{
+    font-size: 1rem;
+    display: inline-block;
+   
+}
+
+
+
+footer div{
+    width: 50%;
+}
+
+footer{
+    font-family: 'Lustria', serif;  
+    text-align: center;
+    margin-top: 7%;
+    color:#FFFFFF;
+    background-color: #212e40;
+    display: flex;
+}
+
+

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E0E2EE;
+    
+}
+
+
+#menu p{
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Cinzel', serif;    
+    margin: 15px 20px 0px 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: #26CAE0;
+}
+
+#conta{
+    background-color: #212E40;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+#menu{
+    position: fixed;
+    background-color: #000;
+    color: #FFFFFF;
+    width: 100%;
+    z-index: 1;
+    vertical-align:middle ;
+}
+
+
+#menu #logo{
+    float: right;
+    margin: 0 30px 0 0;
+}
+
+#vila{
+    color: #26CAE0;
+    font-family: 'Comforter', cursive;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#ipojuca{
+
+    font-family: 'Zen Loop', cursive;
+}
+
+content h2{
+    margin-top:0 ;
+}
+
+content{
+    font-family: 'Lustria', serif;
+    font-size: 1.2rem;    
+    text-align: center;
+}
+
+#telainc {
+
+    z-index: -1;
+
+    height: 90vh;
+
+    display: flex;
+
+
+    color: #eee;
+
+    background:url('https://www.viagensecaminhos.com/wp-content/uploads/2012/12/rua-25-de-marco-1.jpg') no-repeat center/cover;
+    
+    
+    
+    background-color: rgba(0,0,0,0.6);
+
+    background-blend-mode: color;
+    
+
+}
+
+#telainc-container h2 {
+
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+    font-size: 50px;
+    color: #ffffff;
+
+    
+
+
+
+}
+
+#telainc-container {
+    margin: auto;
+
+    
+
+
+
+}
+
+
+#box p{
+  
+    width: 97%;
+    padding: 2%
+    
+}
+
+#box{
+    width: 50%;
+    box-shadow: 30px 30px gray;
+    margin: 3% auto 3% auto;
+    background-color: #424f7e;
+}
+
+h1{
+    margin-top: 5%;
+}
+
+.container img{
+    width: 25%;
+    margin-left: 17.5%;
+}
+.container {
+    margin-top: 5%;
+    display: flex;
+}
+
+.texto{
+    width: 40%;
+}
+
+.container2 img{
+    width: 25%;
+    
+}
+.container2 {
+    margin-top: 5%;
+    display: flex;
+}
+
+.texto2{
+    margin-right: 2%;
+    margin-left: 15.5%;
+    width: 40%;
+}
+footer img{
+    display: inline-block;
+    width: 20px;
+}
+footer p{
+    font-size: 1rem;
+    display: inline-block;
+   
+}
+
+
+
+footer div{
+    width: 50%;
+}
+
+footer{
+    font-family: 'Lustria', serif;  
+    text-align: center;
+    margin-top: 7%;
+    color:#FFFFFF;
+    background-color: #212e40;
+    display: flex;
+}
+
+

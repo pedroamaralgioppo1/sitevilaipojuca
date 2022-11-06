@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#menu p{
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Cinzel', serif;    
+    margin: 15px 20px 0px 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: #26CAE0;
+}
+
+#conta{
+    background-color: #212E40;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+#menu{
+    position: fixed;
+    background-color: #000;
+    color: #FFFFFF;
+    width: 100%;
+    z-index: 1;
+    vertical-align:middle ;
+}
+
+
+#menu #logo{
+    float: right;
+    margin: 0 30px 0 0;
+}
+
+#vila{
+    color: #26CAE0;
+    font-family: 'Comforter', cursive;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#ipojuca{
+
+    font-family: 'Zen Loop', cursive;
+}
+
+#telainc {
+
+    z-index: -1;
+
+    height: 90vh;
+
+    display: flex;
+
+
+    color: #000;
+
+    background:url('https://blog.estantemagica.com.br/wp-content/uploads/2018/02/alunos-falando-na-escola-e1519848930399-1024x585.jpg') no-repeat center/cover;
+    
+    
+    
+    background-color: rgba(0,0,0,0.1);
+
+    background-blend-mode: color;
+    
+
+}
+
+content {
+    font-family: 'Lustria', serif;
+    font-size: 1.2rem;    
+    text-align: center;
+    
+    
+}
+#telainc-container h2 {
+
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+    font-size: 50px;
+    color: #000;
+
+    
+
+
+
+}
+
+#telainc-container {
+    margin: auto;
+
+
+}
+
+#texto{
+    margin-top: 3%;
+    width: 70%;
+    margin: auto;
+}
+
+.linha{
+    height: 3px;
+    background-color: black;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+
+.container{
+    display: flex;
+    margin-top: 5%;
+}
+.container img{
+    
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 30%;
+}
+
+.titulo{
+    margin-left: 3%;
+}
+
+.legenda{
+    width:50% ;
+}
+
+footer img{
+    display: inline-block;
+    width: 20px;
+}
+footer p{
+    font-size: 1rem;
+    display: inline-block;
+   
+}
+
+
+
+footer div{
+    width: 50%;
+}
+
+footer{
+    font-family: 'Lustria', serif;  
+    text-align: center;
+    margin-top: 7%;
+    color:#FFFFFF;
+    background-color: #212e40;
+    display: flex;
+}
+
+
